@@ -1,0 +1,17 @@
+release/admindashboard.o
+release/login_controller.o
+release/main.o
+release/mainwindow.o
+release/md5.o
+release/reserveroom.o
+release/rmaintenance.o
+release/room.o
+release/studentdashboard.o
+release/qrc_qmake_qmake_qm_files.o
+release/moc_admindashboard.o
+release/moc_login_controller.o
+release/moc_mainwindow.o
+release/moc_reserveroom.o
+release/moc_rmaintenance.o
+release/moc_room.o
+release/moc_studentdashboard.o

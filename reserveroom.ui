@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReserveRoom</class>
+ <widget class="QDialog" name="ReserveRoom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>957</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="Maintenance_pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Maintenance</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DashName_label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>DASHBOARD</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Overview</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="LeftSide_plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>191</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+    background-color: #2c3e50;  /* Dark blue-gray */
+    color: white;               /* Text color */
+    font-weight: bold;
+    border: none;
+}</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Settings_toolButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>570</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reserve_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reserve Room</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1041</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+    background-color: skyblue;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DashName_label_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ADMIN</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="overview_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Overview</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="room_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rooms</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="maintenance_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Maintenance</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Settings_toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>570</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DashName_label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>DASHBOARD</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="LeftSide_plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>191</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+    background-color: #2c3e50;  /* Dark blue-gray */
+    color: white;               /* Text color */
+    font-weight: bold;
+    border: none;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="header_label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ROOM REGISTRATION FORM</string>
+   </property>
+  </widget>
+  <widget class="QToolBox" name="verticalToolBox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>550</y>
+     <width>821</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalToolBoxPage1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>821</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string/>
+    </attribute>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="studentid_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>99</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>STUDENT ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="studentid_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>100</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="room_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>170</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ROOM NO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="capacity_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>240</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CAPACITY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="paymentid_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>310</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PAYMENT ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="duration_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>380</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>DURATION</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="price_label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>450</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PRICE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="room_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>170</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="paymentid_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>310</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="duration_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>380</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>450</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_Button">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>510</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_Button">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>510</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="capacity_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>240</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>plainTextEdit</zorder>
+  <zorder>verticalToolBox</zorder>
+  <zorder>LeftSide_plainTextEdit_2</zorder>
+  <zorder>Maintenance_pushButton_4</zorder>
+  <zorder>DashName_label_8</zorder>
+  <zorder>toolButton</zorder>
+  <zorder>LeftSide_plainTextEdit</zorder>
+  <zorder>Settings_toolButton</zorder>
+  <zorder>reserve_Button</zorder>
+  <zorder>DashName_label_7</zorder>
+  <zorder>overview_Button</zorder>
+  <zorder>room_Button</zorder>
+  <zorder>maintenance_Button</zorder>
+  <zorder>Settings_toolButton_2</zorder>
+  <zorder>DashName_label_9</zorder>
+  <zorder>header_label</zorder>
+  <zorder>studentid_label</zorder>
+  <zorder>studentid_lineEdit</zorder>
+  <zorder>room_label</zorder>
+  <zorder>capacity_label</zorder>
+  <zorder>paymentid_label</zorder>
+  <zorder>duration_label</zorder>
+  <zorder>price_label</zorder>
+  <zorder>room_lineEdit</zorder>
+  <zorder>paymentid_lineEdit</zorder>
+  <zorder>duration_lineEdit</zorder>
+  <zorder>price_lineEdit</zorder>
+  <zorder>save_Button</zorder>
+  <zorder>cancel_Button</zorder>
+  <zorder>capacity_comboBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

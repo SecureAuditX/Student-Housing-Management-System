@@ -1,0 +1,17 @@
+debug/admindashboard.o
+debug/login_controller.o
+debug/main.o
+debug/mainwindow.o
+debug/md5.o
+debug/reserveroom.o
+debug/rmaintenance.o
+debug/room.o
+debug/studentdashboard.o
+debug/qrc_qmake_qmake_qm_files.o
+debug/moc_admindashboard.o
+debug/moc_login_controller.o
+debug/moc_mainwindow.o
+debug/moc_reserveroom.o
+debug/moc_rmaintenance.o
+debug/moc_room.o
+debug/moc_studentdashboard.o

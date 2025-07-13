@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RMaintenance</class>
+ <widget class="QDialog" name="RMaintenance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1051</width>
+    <height>638</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1051</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+    background-color: #87CEEB;  /* Sky Blue Hex */
+    border: none;
+    color: black;                /* Optional: text color */
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 6px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DashName_label_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ADMIN</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Overview_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Overview</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Room_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rooms</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Maintenance_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Maintenance</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Settings_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>570</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Reserve_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reserve Room</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DashName_label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>DASHBOARD</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="LeftSide_plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>191</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+    background-color: #2c3e50;  /* Dark blue-gray */
+    color: white;               /* Text color */
+    font-weight: bold;
+    border: none;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="maintenance_table">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>0</y>
+     <width>861</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+ color: red;
+gridline-color: blue;
+selection-color: green;
+selection-background-color: blue;
+font: italic 14pt &quot;Times New Roman&quot;;
+}
+QTableWidget&quot;&quot;item:selected
+{
+color: white;
+background-color: red;
+}
+QheaderView {
+background-color:black;
+color: white;
+font: italic 14pt &quot;Times New Roman&quot;;
+}</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>ROOM NO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CAPACITY</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COST</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>M_STATUS</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="Edit_Button">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>470</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EDIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save_Button">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>470</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delete_Button">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>470</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+  <zorder>plainTextEdit</zorder>
+  <zorder>LeftSide_plainTextEdit</zorder>
+  <zorder>DashName_label_7</zorder>
+  <zorder>Overview_Button</zorder>
+  <zorder>Room_Button</zorder>
+  <zorder>Maintenance_Button</zorder>
+  <zorder>Settings_Button</zorder>
+  <zorder>Reserve_Button</zorder>
+  <zorder>DashName_label_8</zorder>
+  <zorder>maintenance_table</zorder>
+  <zorder>Edit_Button</zorder>
+  <zorder>Save_Button</zorder>
+  <zorder>Delete_Button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
